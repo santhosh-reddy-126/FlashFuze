@@ -3,7 +3,7 @@ import Card from "./Card.js";
 import img1 from "./edit.png"
 import img2 from "./bin.png"
 import "./App.css"
-const blink="http://localhost:3008"
+const blink="https://flipfuzebackend.onrender.com"
 function App() {
   
   const [edits,setedits] = useState(false);
