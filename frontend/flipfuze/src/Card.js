@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./App.css"
-const blink="http://localhost:3008"
+const blink="https://flipfuzebackend.onrender.com"
 export default function Card(props) {
   const [flipped, setflipped] = useState(false);
   const [data,setdata]=useState({
